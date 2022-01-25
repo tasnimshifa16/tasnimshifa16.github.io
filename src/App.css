@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+/* Defauls */
+* {
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+.color-primary {
+	color: #58852f !important;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	color: #58852f;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.back-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.6rem;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: #ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	transition: all 0.3s ease-in-out;
+	height: 60px;
+	width: 60px;
+	border: none;
+}
+/*  */
+.name {
+	font-size: 35px;
+	line-height: 57px;
+
+	color: #96c11e;
+}
+.description {
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 33px;
+
+	box-sizing: border-box;
+	color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Socail Icon */
+.icons {
+	list-style: none;
+	padding: 0;
+	padding-bottom: 80px;
+}
+.icons li a {
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 1.6em;
+	color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icons li:hover a {
+	color: rgb(230, 230, 230);
 }
 
-.App-link {
-  color: #61dafb;
+/* Works Section */
+.works-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1em;
+	z-index: 9999;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line-left {
+	width: 70%;
+	height: 50px;
+	margin: 50px 0;
+	background-color: rgba(88, 133, 47, 0.2);
+}
+.line-right {
+	width: 70%;
+	height: 50px;
+	margin: 50px 0 50px auto;
+	background-color: rgba(88, 133, 47, 0.2);
+}
+
+.text-footer {
+	color: #ffffff7c;
+}
+.section-img {
+	width: 50%;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 900px) {
+	.section-img {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
