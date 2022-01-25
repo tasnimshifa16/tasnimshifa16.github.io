@@ -12,16 +12,26 @@ const Works = () => {
 						<div
 							className='shadow p-2'
 							style={{ backgroundColor: '#fff', borderRadius: '20px' }}>
-							<p className='text-center'>
-								<img src='/images/style.png' width='90%' alt='' />
-							</p>
+							<a
+								href='http://link.farihashifa.me/Style-website'
+								rel='noreferrer'
+								target='_blank'>
+								<p className='text-center'>
+									<img src='/images/style.png' width='90%' alt='' />
+								</p>
+							</a>
 							<div className='works-details px-2'>
 								<p>
 									<img src='/images/style-logo.svg' width='100px' alt='' />
 								</p>
-								<h2 className='color-primary'>
-									E-commerce Website UI Kit (Shopping website UI Design)
-								</h2>
+								<a
+									href='http://link.farihashifa.me/Style-website'
+									rel='noreferrer'
+									target='_blank'>
+									<h2 className='color-primary'>
+										E-commerce Website UI Kit (Shopping website UI Design)
+									</h2>
+								</a>
 								<p className='fs-5'>
 									A complete UI design kit for a online shopping website. This
 									package has all details needed. Opening page, log in
@@ -35,16 +45,27 @@ const Works = () => {
 						<div
 							className='shadow p-2'
 							style={{ backgroundColor: '#fff', borderRadius: '20px' }}>
-							<p className='text-center'>
-								<img src='/images/style-mobile.png' width='90%' alt='' />
-							</p>
+							<a
+								href='http://link.farihashifa.me/style-mobile'
+								rel='noreferrer'
+								target='_blank'>
+								<p className='text-center'>
+									<img src='/images/style-mobile.png' width='90%' alt='' />
+								</p>
+							</a>
 							<div className='works-details px-2'>
 								<p>
 									<img src='/images/style-logo.svg' width='100px' alt='' />
 								</p>
-								<h2 className='color-primary'>
-									E-commerce App UI Design (Shopping Mobile App UI Kit)
-								</h2>
+								<a
+									href='http://link.farihashifa.me/style-mobile'
+									rel='noreferrer'
+									target='_blank'>
+								
+									<h2 className='color-primary'>
+										E-commerce App UI Design (Shopping Mobile App UI Kit)
+									</h2>
+								</a>
 								<p className='fs-5'>
 									A complete UI design kit for a online shopping app. This
 									package has all details needed. Opening page, log in
@@ -58,16 +79,25 @@ const Works = () => {
 						<div
 							className='shadow p-2'
 							style={{ backgroundColor: '#fff', borderRadius: '20px' }}>
+							<a
+									href='http://link.farihashifa.me/FoodFest'
+									rel='noreferrer'
+									target='_blank'>
 							<p className='text-center'>
 								<img src='/images/foodfest.png' width='90%' alt='' />
-							</p>
+								</p>
+								</a>
 							<div className='works-details px-2'>
 								<p>
 									<img src='/images/foodfest-logo.svg' width='100px' alt='' />
 								</p>
+								<a
+									href='http://link.farihashifa.me/FoodFest'
+									rel='noreferrer'
+									target='_blank'>
 								<h2 className='color-primary'>
 									App UI Kit (Food Delivery Mobile App)
-								</h2>
+								</h2></a>
 								<p className='fs-5'>
 									A complete UI design kit for a food delivery company. This
 									package has all details needed. Opening page, log in
@@ -81,16 +111,24 @@ const Works = () => {
 						<div
 							className='shadow p-2'
 							style={{ backgroundColor: '#fff', borderRadius: '20px' }}>
+							<a
+									href='http://link.farihashifa.me/instameal'
+									rel='noreferrer'
+									target='_blank'>
 							<p className='text-center'>
 								<img src='/images/instameal.png' width='90%' alt='' />
-							</p>
+							</p></a>
 							<div className='works-details px-2'>
 								<p>
 									<img src='/images/instameal-logo.svg' width='100px' alt='' />
 								</p>
+								<a
+									href='http://link.farihashifa.me/instameal'
+									rel='noreferrer'
+									target='_blank'>
 								<h2 className='color-primary'>
 									UI Design (Food Delivery Mobile App)
-								</h2>
+								</h2></a>
 								<p className='fs-5'>
 									A complete UI design kit for a food delivery company. This
 									package has all details needed. Opening page, log in

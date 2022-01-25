@@ -1,6 +1,8 @@
 import React from 'react';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
+	const [modalShow, setModalShow] = React.useState(false);
 	return (
 		<div id='contact' className='text-center'>
 			<p className='py-5 section-img'>
@@ -19,9 +21,10 @@ const Contact = () => {
 					Please contact if you want to work with me. Feel free to ask any
 					question.
 				</p>
-				<button className='btn text-success px-5 mt-4 shadow fs-2 bg-white'>
+				<button className='btn text-success px-5 mt-4 shadow fs-2 bg-white' onClick={() => setModalShow(true)}>
 					Say Hello! 👋
 				</button>
+				<ContactForm show={modalShow} onHide={() => setModalShow(false)} />
 			</div>
 			<p className='py-4 section-img'>
 				<img src='/images/thanks.svg' width='80%' alt='' />

@@ -15,7 +15,8 @@ const Navigation = () => {
 						<Nav.Link className='px-3' href='#work'>Work</Nav.Link>
 						<Nav.Link className='px-3' href='#about'>About</Nav.Link>
 						<Nav.Link className='px-3' href='#contact'>Contact</Nav.Link>
-						<Nav.Link className='px-3 ms-4 btn btn-outline-secondary text-light' href='#link'>Download Resume</Nav.Link>
+						<Nav.Link className='px-3 ms-4 btn btn-outline-secondary text-light' href='https://drive.google.com/uc?export=download&id=1M873eU2H-Jo6tal_I3r7eUoluVeT5XlM'
+						target="_blank">Download Resume</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
